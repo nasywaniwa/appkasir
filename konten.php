@@ -24,10 +24,18 @@ else if($_GET['p']=='tambah'){
     $title="tambah Penjualan Baru";
     $konten="Konten/tambah.php";
 }
+else if($_GET['p']=='tambah'){
+    $title="tambah Penjualan Baru";
+    $konten="Konten/tambah.php";
+}
 
-else if($_GET['p']=='laporan'){
-    $title="Laporan Sistem";
-    $konten="Konten/laporan.php";
+else if($_GET['p']=='histori'){
+    $title="Histori Penjualan";
+    $konten="Konten/histori.php";
+}
+else if($_GET['p']=='infojual'){
+    $title="Informasi Detail Penjualan";
+    $konten="Konten/infojual.php";
 }
 // akhir menu transaksi
 else if($_GET['p']=='backup'){
