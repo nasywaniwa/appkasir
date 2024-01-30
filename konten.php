@@ -8,6 +8,18 @@ else if($_GET['p']=='produk'){
     $title="Data produk ";
     $konten="Konten/produk.php";
 }
+else if($_GET['p']=='laporan'){
+    $title="Laporan Sistem";
+    $konten="konten/laporan.php";
+}
+else if($_GET['p']=='backup'){
+    $title="backup Sistem";
+    $konten="konten/backup.php";
+}
+else if($_GET['p']=='restore'){
+    $title="Restore Sistem";
+    $konten="konten/restore.php";
+}
 
 else if($_GET['p']=='pelanggan'){
     $title="Data Pelanggan ";
